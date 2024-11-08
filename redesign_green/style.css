@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -168,6 +168,10 @@ PROJECTS PAGE
     text-align: left;
 }
 
+.projects .container {
+    padding: 0;
+}
+
 .project-icon {
     width: 80px;
     height: 80px;
@@ -177,7 +181,7 @@ PROJECTS PAGE
 
 .project {
     margin-bottom: 40px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     background-color: #f9f9f9;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
