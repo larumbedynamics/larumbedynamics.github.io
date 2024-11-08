@@ -52,7 +52,7 @@ body {
     gap: 20px;
 }
 
-.navigation a {
+.navigation a, h1 a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -138,5 +138,128 @@ body {
 }
 
 .footer a:hover {
+    text-decoration: underline;
+}
+
+/************************************************************
+PROJECTS PAGE
+*************************************************************/
+.projects-hero {
+    background-color: #edf8f8;  /* light green background e0fbfc -> edf8f8 */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.projects-hero h2 {
+    font-size: 2em;
+    color: #006d77;
+}
+
+.projects-hero p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: left;
+}
+
+.project-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+.project img {
+    margin-top: 10px;
+}
+
+.project h3 {
+    color: #006d77;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.cta-link {
+    color: #006d77;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cta-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/************************************************************
+ CONTACT PAGE
+ *************************************************************/
+.contact-hero {
+    background-color: #edf8f8;  /* light green background e0fbfc -> edf8f8 */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-hero h2 {
+    font-size: 2em;
+    color: #006d77;
+}
+
+.contact-hero p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #006d77;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
     text-decoration: underline;
 }
