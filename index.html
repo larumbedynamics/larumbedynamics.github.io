@@ -3,63 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Larumbe Dynamics LLC</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 75vh;  /* Ensure it takes the full viewport height */
-            height: 75dvh;     /* Use dynamic viewport height on supported browsers */
-            margin: 0;
-        }
-        h1 {
-            font-size: 4em;
-            font-weight: bold;
-            letter-spacing: 2px;
-            margin: 0;
-            text-align: center;
-            color: #0e1d26; /* Dark blue-gray */
-        }
-        h2 {
-            font-size: 2.7em;
-            margin: 5px;
-            text-align: center;
-            letter-spacing: 1px;
-            font-weight: normal;
-            color: #0e1d26; /* Dark blue-gray */
-        }
-        .container {
-            text-align: center;
-            background: #cfd8d9; /*#b7c0c2;*/
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
-        }      
-	.description {
-            font-size: 1.7em;
-            color: #666;
-            margin-top: 10px;
-	    margin-bottom: 0px;
-	}
-	.contact-info {
-            font-size: 0.9em;
-            color: #666;
-            margin-top: 30px;
-	    margin-bottom: 0px;
-	    font-style: italic;
-	}
-    </style>
+    <title>Larumbe Dynamics, LLC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/LD_Logo.png" type="image/png">
 </head>
 <body>
-    <div class="container">
-      <h1>LARUMBE</h1>
-      <h2>DYNAMICS LLC</h2>
-      <br>
-      <p class="description">By Federico Larumbe</p>
-      <p class="contact-info">card-contact at &lt;this domain&gt; | SF Bay Area | California</p>
-    </div>
+  <div class="body-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="logo"><a href="index.html">Larumbe Dynamics, LLC</a></h1>
+        <nav class="navigation">
+          <a href="index.html">About Us</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Advancing Education with Technology</h2>
+        <p>Creating tools that empower learners, spark creativity, and drive educational growth.</p>
+        <a href="projects.html" class="cta-button">Explore our projects</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>Larumbe Dynamics, LLC is dedicated to crafting digital solutions that bridge technology and education. Our mission is to create meaningful and engaging experiences that encourage creativity, critical thinking, and lifelong learning.</p>
+        <a href="projects.html" class="cta-link">Learn more</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Larumbe Dynamics, LLC. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
